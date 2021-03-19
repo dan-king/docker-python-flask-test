@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>{{ page_title }}</title>
+        <meta name="description" content="{{ page_title }}">
+        <link href="./static/application.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <div>
+            <h3 style="color: purple;">{{ page_title }}</h3>
+            <h6 style="color: peru;">{{ page_subtitle }}</h6>
+            <h4>app_static_url_path: {{ app_static_url_path }}</h4>
+            <h4>app_static_folder: {{ app_static_folder }}</h4>
+            <h4>url_for('static', filename='hello_world'): {{ url_for('static', filename='hello_worl.png') }}</h4>
+            <h1>WOW!</h1>
+            
+            <p><img src="{{ url_for('static', filename='hello_world.png') }}" width="100" alt="Hello World"></p>
+            <p><img src="/static/hello_world.png" width="100" alt="Hello World"></p>
+            <p><img src="./static/hello_world.png" width="100" alt="Hello World"></p>
+        </div>
+    </body>
+</html>

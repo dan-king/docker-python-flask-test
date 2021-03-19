@@ -1,0 +1,17 @@
+appdirs==1.4.4
+black==20.8b1
+click==7.1.2
+Flask==1.1.2
+itsdangerous==1.1.0
+Jinja2==2.11.3
+MarkupSafe==1.1.1
+mypy-extensions==0.4.3
+pathspec==0.8.1
+pdfkit==0.6.1
+PyMuPDF==1.18.9
+python-dotenv==0.15.0
+regex==2021.3.17
+toml==0.10.2
+typed-ast==1.4.2
+typing-extensions==3.7.4.3
+Werkzeug==1.0.1
